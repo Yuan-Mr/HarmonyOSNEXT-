@@ -148,6 +148,7 @@ struct RenderTest {
 
 也可以加入我们鸿蒙技术交流群，开发鸿蒙原生应用过程有啥问题都可以在群沟通，互相帮助，一起进步。
 
-![e36ee7c117ea59e45aacd442a2e160f.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/dc8bf9e5b9594d3db18df23af89d72f0~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743072031&x-orig-sign=nWJj6Hi9hr3wr3QCcYSZ%2B6sZ0Ko%3D)
+![image](https://github.com/user-attachments/assets/43adf3de-0f01-41f6-8ab6-e8f9a77a1dd1)
+
 
 在开发鸿蒙原生应用的时候，需要用到图表组件的也可以尝试使用我们封装的。图表的官网地址：[meichuangit.net.cn/](https://link.juejin.cn/?target=http%3A%2F%2Fmeichuangit.net.cn%2F "http://meichuangit.net.cn/")
