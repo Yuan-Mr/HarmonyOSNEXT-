@@ -1,0 +1,68 @@
+大家好，我是陈杨。终于有时间来分享一些技术文章了，自从 `McCharts` 组件上线第一期之后，就开始忙碌鸿蒙创新赛与极客马拉松比赛。在比赛的过程一直收到很多`Issues`，但是由于腾不出时间来维护，导致大家以为我们不维护了。在这里给大家说一声`对不起`。现在两个比赛都结束了，刚好鸿蒙推出全新的HarmonyOS NEXT版本，我们也是第一时间投入开发，将所有`Issues`全部解决，上架2.0版本，完美适配鸿蒙最新的版本。
+
+> 顺便分享一下这次比赛的经历，这次比赛我们是以个人小队去参与的，一边自学一边开发，最后也闯入了决赛，与各方大佬进行最终决斗。虽然最后输了，但是学习了很多东西，也对自己的一些不足进行总结，后面我也会专门写一篇经验分享与总结的文章。
+
+![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/ac8f24bfbdd54e44b7023f23cad408ae~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=%2Bb2YUAKfoLD3ZiBDEMOoigWdobs%3D)
+
+来看看我们这次主要修复和更新了哪些内容？也会跟大家讲一下小伙伴遇到的一些开发工具版本的问题。
+
+## 修复
+
+先讲一下修复了哪些问题：
+
+*   修复Tooltip中的app.float.xxxx资源引用不到，编译不通过的问题
+*   修复设置自定义属性必须要把属性写全，否则会丢失默认值的问题
+*   修复折线图设置x轴的label和刻度尺的时候，会导致x轴的文本不显示出来的问题
+*   修复折线图x轴的data设置为number类型的数组会报错的问题
+*   修复series的data数据类型定义错误的问题
+*   修复@state defOptions: Options = new Options({})时会报错
+*   修复不显示tooltip情况下点击扇区报错的问题
+*   修复柱状图X轴文本没有和图对齐的问题
+
+这里大部分的原因主要是一期考虑数据处理的时候，没有考虑到覆盖的问题。还有就是数据类型定义的不是很全面，这次也是着重检查了一遍。欢迎大家提出的问题，后续我们也会及时修复。
+
+## 更新
+
+来看一下我们这次更新了哪些功能：
+
+*   新增折线图支持设置平滑曲线
+*   新增X轴文本支持设置直接截断与换行
+*   新增X轴动态设置间隔显示文本标签
+*   新增X轴支持设置滚动模式
+*   新增X轴支持设置文本与轴线的距离
+*   新增Y轴支持设置名称与轴线的距离
+*   新增Y轴支持设置文本与轴线的距离
+*   新增折线图支持设置背景面积图
+*   新增折线图支持设置拐点边框样式
+*   新增柱状图支持设置圆柱属性
+*   新增自定义提示框
+*   新增雷达图组件
+*   新增饼图增加title组件以及自定义设置title的功能
+
+这次主要的更新点是x轴滚动模式、折线图平滑曲线展示、自定义提示层、饼图新增设置title功能。这些功能都是在E charts比较常见的，所以我们也是会第一时间去实现。可以看一下我们的示例图：
+
+![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/4f7d9a1552b94904ab8bcaf6c5f5eb73~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=wewL0XBNN2WdolRsWkWht1wRLTY%3D)
+
+![image.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/860fffae38aa48b690244dc92c7330b4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=QHIXJxYvS7kMLXerNsB4gLSe%2FFY%3D)
+
+![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d0586fc6b780410daf54d151dab457e2~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=yvWwB71FltK0qXB8v07UWFvuI6U%3D)
+
+以上就是这次版本的更新内容了。我们也规划了一些功能，在后续时间里面逐步去完成相关功能的开发，**`大家可以不用怕我们不维护哈`**。
+
+## 官网更新
+
+不光光这次组件更新了，我们也对官网进行了更新。以前的官网的模式是讲解属性功能，加一张静态图片跟示例代码，详细的属性介绍会放在最下面，可能会导致用户不知道怎么使用。所以我们这次换成了功能讲解+动态图+示例代码+详细属性讲解作为一个模块，不会分开展示，让你们使用起来更加方便。下面简单看一下演示视频：
+
+![96bc2c6c-b0a4-468c-b8cd-111c9c597731.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/0f87dbd1815a4b178c9cf0832fc13aad~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=3W53TRD2QXJ8GBThPxUfujpFBpQ%3D)
+
+大家也可以自己体验一下。记得给我们一个`小小的star`！！！
+
+**`官方文档地址`**：<http://110.41.70.31/>
+
+**`Github地址`**：<https://github.com/Yuan-Mr/mcCharts>
+
+## 总结
+
+这次的分享就到此为止了，开发这个组件目的还是希望大家能够轻松迁移Echarts或者开发图表功能。而开源是更好的跟大家一起学习，我们也会坚持下去。谢谢大家在使用的过程中提出你们宝贵的意见，有兴趣的可以加入我们的`组件技术交流群`。
+
+> 在未来我们也会分享更多的工具案例，有免费使用的案例，也有付费的案例，打造一个全面的鸿蒙生态。也欢迎大家加入鸿蒙开发，体验自己国产的操作系统，这也是一件值得骄傲的事情。
