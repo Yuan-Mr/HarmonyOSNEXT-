@@ -26,7 +26,8 @@
 
 先绘画出柱状区的概览图：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c551614c70ff4570b63e12ffcac14a6f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1206&h=1120&s=111816&e=png&b=ffffff)
+![image](https://github.com/user-attachments/assets/e92e763e-0156-4dd3-97b0-220a6610904f)
+
 
 通过概览图，我们可以得到以下步骤：首先计算出每个刻度的X坐标，然后将数值转换为对应的高度，并设置柱子的宽度，最后利用canvas的矩形绘制方法来绘制相应的柱子。接下来我们将详细介绍具体的算法：
 
@@ -204,7 +205,8 @@ Column() {
 
 [组件区域变化事件，快速跳转](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/ts-universal-component-area-change-event-0000001478061665-V3)
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52826eafb47d4491b1b8c6f02f878eb1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2040&h=1368&s=260670&e=png&b=fefefe)
+![image](https://github.com/user-attachments/assets/22a0f520-1201-4468-a045-e126a5972852)
+
 
 这个事件主要用于监听某个元素位置或尺寸的变化，并在变化发生时回调，提供最新的位置和尺寸信息。这正好符合我们的需求，因为我们的 X 坐标是不断变化的，这样我们就可以获取到元素的尺寸了。下面是完整的代码示例：
 
