@@ -13,7 +13,8 @@
 
 除了我们使用鸿蒙特性实现了一些功能外面，我们还自己实现了笔记编辑引擎，能够自定义排版与布局自己的笔记内容，以及对笔记内容进行标注、加粗等等操作。接下来会一一介绍
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/b234383155f94e67b4f55ebff6ec7b00~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=DgZtzTob7aRttjhxSzL6mwsk3gs%3D)
+![image](https://github.com/user-attachments/assets/b85ecf6b-1474-4a0a-8d31-be8a3ec64269)
+
 
 ## 产品主要功能
 
@@ -25,7 +26,8 @@
 
 两种登录模式的开发流程是这样的：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/6518864ffc5b4b7082c611a8e0d5e1a6~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=7k3MaFS0LzmELG1t5KNjQJ3EgeI%3D)
+![image](https://github.com/user-attachments/assets/e2eceb14-79ba-4030-8363-7d0dcf5cc5f8)
+
 
 ### 会议管理与日程管理
 
@@ -37,7 +39,8 @@
 
 开发流程：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/de292b1c94d94c598e592b52e329f555~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=kepSIKj6PKkH7rNGYe6yQwehu1s%3D)
+![image](https://github.com/user-attachments/assets/35b2884a-6e1a-4413-a8ac-11c4db3219db)
+
 
 ### 会议中心（语音录制+语音识别）
 
@@ -45,7 +48,8 @@
 
 开发流程：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/99f3db7725734437be41b74ed528be77~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=lyil%2FdoGrzRIXesYFuL5uRQ%2Fl54%3D)
+![image](https://github.com/user-attachments/assets/5c5ed3f2-f5da-4945-9158-f456fd6f9348)
+
 
 ### 会议纪要生成
 
@@ -53,7 +57,8 @@
 
 开发流程：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/aaff509f8fa44b999da20057661e687a~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=ClebO5eo6MM6u2xCiCw%2BbgmCL8g%3D)
+![image](https://github.com/user-attachments/assets/20e2bbb6-602d-424a-b526-f5d29c39dc85)
+
 
 ### 自研可视化编辑器
 
@@ -61,13 +66,15 @@
 
 给大家看一下整体设计模式：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d1733213eba44ea38b754f60272ffdda~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=9ggehX3h62HmcqxM9W5NP9gNz4I%3D)
+![image](https://github.com/user-attachments/assets/8b0223a5-3501-48fb-b30b-0a5092805567)
+
 
 目前还有部分功能没有完成，基本的都已经支持了。在坐标是我们的组件区与容器区，可以通过拖拽模式将组件添加到右边的呈现区。在标注区，我们实现了可以自定义给文字设置加粗与颜色效果，颜色选择器也是我们自研的。整体可以看一下具体效果图
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/b160a065e0ba4b13a5f5f8d2781e344d~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=B1KJkJDnFEi1djOa7FwbbMHLY14%3D)
+![image](https://github.com/user-attachments/assets/547f379d-0400-41b3-a271-92e2cc28d984)
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/aed67104fe99450bbb4b9cd31a382409~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743071897&x-orig-sign=gnUj%2BQcRSun4jzXUR5LAEdo9VXs%3D)
+![image](https://github.com/user-attachments/assets/4533091b-a945-4ab1-ab96-19593eabaacd)
+
 
 ## 结束
 
