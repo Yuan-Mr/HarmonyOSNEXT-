@@ -6,7 +6,8 @@
 
 先给大家看一下整体效果
 
-![jlch.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d76174d6d35c4b23a07076c72757b979~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051883&x-orig-sign=n1mw%2Bad6UYuSulsB09HnfE%2BeW8w%3D)
+![image](https://github.com/user-attachments/assets/9ddc6566-08ac-4f51-bc2a-333cd590222a)
+
 
 
 # 开发准备
