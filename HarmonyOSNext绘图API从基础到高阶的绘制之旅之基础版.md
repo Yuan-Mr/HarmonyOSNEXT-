@@ -1,7 +1,8 @@
 
 大家好，欢迎来到莓创IT技术分享频道，我是陈杨。由于经常有小伙伴一直给我反馈说`莓创图表（mccharts）`数据多的时候经常卡顿，很无奈之前做动画的时候没考虑ArkTs的性能瓶颈，导致现在又要重构开发。于是我重新翻阅文档，看看有没有新的方式来解决。在翻阅官网文档的时候，无意间看到这句话。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/2b3a6b39feed4ad6ad2b031983360a02~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743072031&x-orig-sign=5hPZ1HZ9JczFE5ZkZrkxrlBkjbg%3D)
+![image](https://github.com/user-attachments/assets/a6317128-356c-4b98-a20d-ebc6c28b1a97)
+
 
 发现了`@ohos.graphics.drawing`模块性能竟然比canvas好，所以最近我有时间都在学习这个API的功能，准备将莓创图表（mccharts）进行性能升级，打造更加完美的图表组件库。这次我也给大家好好分享一下这个API，给大家准备了三篇，写的不好请见谅。
 
