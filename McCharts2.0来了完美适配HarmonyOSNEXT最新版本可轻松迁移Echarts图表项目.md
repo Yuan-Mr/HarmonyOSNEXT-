@@ -2,7 +2,8 @@
 
 > 顺便分享一下这次比赛的经历，这次比赛我们是以个人小队去参与的，一边自学一边开发，最后也闯入了决赛，与各方大佬进行最终决斗。虽然最后输了，但是学习了很多东西，也对自己的一些不足进行总结，后面我也会专门写一篇经验分享与总结的文章。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/ac8f24bfbdd54e44b7023f23cad408ae~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=%2Bb2YUAKfoLD3ZiBDEMOoigWdobs%3D)
+![image](https://github.com/user-attachments/assets/f7ee337a-359d-4b90-b650-5e2e84931e3b)
+
 
 来看看我们这次主要修复和更新了哪些内容？也会跟大家讲一下小伙伴遇到的一些开发工具版本的问题。
 
