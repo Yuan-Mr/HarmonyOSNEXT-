@@ -251,7 +251,8 @@ image.createPixelMap(/* 图片数据 */).then((pixelMap) => {
 
 家人们，到这里，鸿蒙绘图API的进阶内容就学完啦！是不是感觉自己离大神又近了一步？赶紧动手实践，把这些知识运用到实际开发中。要是遇到问题，别担心，去官方文档里找找答案，或者和技术交流群里的小伙伴们一起讨论。下一次，咱们将挑战高阶版，一起探索更高级的绘图技巧，期待与大家共同进步！
 
-![e36ee7c117ea59e45aacd442a2e160f.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/dc8bf9e5b9594d3db18df23af89d72f0~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743072076&x-orig-sign=1jDev99V%2FNiEFTNjnV7I%2FLTaigg%3D)
+![image](https://github.com/user-attachments/assets/6af11624-fc6b-4b7f-b194-34e8ba6637c7)
+
 
 在开发鸿蒙原生应用的时候，需要用到图表组件的也可以尝试使用我们封装的。图表的官网地址：[meichuangit.net.cn/](https://link.juejin.cn/?target=http%3A%2F%2Fmeichuangit.net.cn%2F "http://meichuangit.net.cn/")
 
