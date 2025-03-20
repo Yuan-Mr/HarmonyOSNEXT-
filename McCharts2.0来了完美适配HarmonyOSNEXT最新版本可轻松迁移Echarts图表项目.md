@@ -42,11 +42,14 @@
 
 这次主要的更新点是x轴滚动模式、折线图平滑曲线展示、自定义提示层、饼图新增设置title功能。这些功能都是在E charts比较常见的，所以我们也是会第一时间去实现。可以看一下我们的示例图：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/4f7d9a1552b94904ab8bcaf6c5f5eb73~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=wewL0XBNN2WdolRsWkWht1wRLTY%3D)
+![image](https://github.com/user-attachments/assets/bb524718-ed3c-4d1a-ad53-1ea96921f215)
 
-![image.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/860fffae38aa48b690244dc92c7330b4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=QHIXJxYvS7kMLXerNsB4gLSe%2FFY%3D)
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d0586fc6b780410daf54d151dab457e2~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=yvWwB71FltK0qXB8v07UWFvuI6U%3D)
+![image](https://github.com/user-attachments/assets/e573a171-6a0f-4f0c-81da-818937e6163b)
+
+
+![image](https://github.com/user-attachments/assets/b38234a0-db1b-4d0e-a11f-9876d956f5a5)
+
 
 以上就是这次版本的更新内容了。我们也规划了一些功能，在后续时间里面逐步去完成相关功能的开发，**`大家可以不用怕我们不维护哈`**。
 
@@ -54,7 +57,8 @@
 
 不光光这次组件更新了，我们也对官网进行了更新。以前的官网的模式是讲解属性功能，加一张静态图片跟示例代码，详细的属性介绍会放在最下面，可能会导致用户不知道怎么使用。所以我们这次换成了功能讲解+动态图+示例代码+详细属性讲解作为一个模块，不会分开展示，让你们使用起来更加方便。下面简单看一下演示视频：
 
-![96bc2c6c-b0a4-468c-b8cd-111c9c597731.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/0f87dbd1815a4b178c9cf0832fc13aad~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZmIX-adqA==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA4NDMyOTc3OTEwODA2MiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1743051773&x-orig-sign=3W53TRD2QXJ8GBThPxUfujpFBpQ%3D)
+![image](https://github.com/user-attachments/assets/1bb65f7f-de4e-4d6c-b01a-7d4aac828ebd)
+
 
 大家也可以自己体验一下。记得给我们一个`小小的star`！！！
 
