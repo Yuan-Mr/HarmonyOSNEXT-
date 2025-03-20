@@ -36,11 +36,13 @@ Hello；大家好，我是陈杨。好久没更新了，首先是自己本职工
 
 1、首页：主要是介绍组件库的框架结构以及能够做什么等等。
 
-![image.png](https://raw.gitcode.com/mc_chenyang/gitcode_knowledge/attachment/uploads/f2b99f0d-148c-40d6-aa8f-aa68956000c3/image.png 'image.png')
+![image](https://github.com/user-attachments/assets/cdb24369-3cd3-40e0-94cc-0abf0dd7b4ac)
+
 
 2、文档页面：主要是详细介绍组件的安装方式、每个组件中的属性以及方法，是开发者使用最广的一个页面
 
-![image.png](https://raw.gitcode.com/mc_chenyang/gitcode_knowledge/attachment/uploads/e117e42c-c066-4d7a-8a28-f357317dc3d8/image.png 'image.png')
+![image](https://github.com/user-attachments/assets/eac07fcf-89c8-404b-9291-70ea35f93c52)
+
 
 目前就这两个页面，其他都是快速跳转到GitHub跟ohpm的
 
